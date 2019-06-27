@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Array</h1>
+    <script>
+    var coworkers = ["mikoong", "hakyeong"]
+    </script>
+
+    <h2>get</h2>
+    <script>
+      document.write(coworkers[1]+'<br>');
+      document.write(coworkers[0]);
+    </script>
+
+    <h2>add</h2>
+    <script>
+      coworkers.push("duru");
+      coworkers.push("egoing");
+    </script>
+
+    <h2>count</h2>
+    <script>
+      document.write(coworkers.length)
+    </script>
+
+<h1>Loop</h1>
+  <ul>
+    <script>
+      document.write("<li>1</li>");
+      var i = 0;
+      while(i < 3){
+      document.write("<li>2</li>");
+      document.write("<li>3</li>");
+      i = i + 1;
+    }
+    document.write("<li>4</li>");
+    </script>
+  </ul>
+
+<h1>Loop & Array</h1>
+<script>
+  var coworkers = ['mikong','hakyeong','egoing','duru','hi'];
+</script>
+<h2>coworkers</h2>
+<ul>
+  <li>mikong</li>
+  <li>hakyeong</li>
+  <li>egoing</li>
+  <li>duru</li>
+</ul>
+<script>
+  var i = 0;
+  while(i < coworkers.length){
+  document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</li>');
+  i = i + 1;
+}
+</script>
+
+<ol>
+  <li><a href="1.html" style="color:red;text-decoration:underline">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+
+
+    </body>
+</html>
